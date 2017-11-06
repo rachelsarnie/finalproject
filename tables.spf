@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ContentFilters</key>
+	<dict/>
+	<key>auto_connect</key>
+	<true/>
+	<key>data</key>
+	<dict>
+		<key>connection</key>
+		<dict>
+			<key>database</key>
+			<string>Twitter</string>
+			<key>host</key>
+			<string>127.0.01</string>
+			<key>kcid</key>
+			<string>4381661269372590451</string>
+			<key>name</key>
+			<string>Localhost</string>
+			<key>rdbms_type</key>
+			<string>mysql</string>
+			<key>sslCACertFileLocation</key>
+			<string></string>
+			<key>sslCACertFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslCertificateFileLocation</key>
+			<string></string>
+			<key>sslCertificateFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslKeyFileLocation</key>
+			<string></string>
+			<key>sslKeyFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>SPTCPIPConnection</string>
+			<key>useSSL</key>
+			<integer>0</integer>
+			<key>user</key>
+			<string>root</string>
+		</dict>
+		<key>session</key>
+		<dict>
+			<key>connectionEncoding</key>
+			<string>utf8</string>
+			<key>contentFilter</key>
+			<dict/>
+			<key>contentPageNumber</key>
+			<integer>1</integer>
+			<key>contentSelection</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGNjdYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoK0HCBUWFxgZHSQoLDA0VSRudWxs0wkK
+			CwwQFFdOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzow0OD4ACgAOA
+			BKMREhOABYAGgAiADFR0eXBlVHJvd3NUa2V5c18QJlNlbGVjdGlv
+			bkRldGFpbFR5cGVQcmltYXJ5S2V5ZWREZXRhaWxz0wkKCxobHKCg
+			gAfSHh8gIVokY2xhc3NuYW1lWCRjbGFzc2VzXxATTlNNdXRhYmxl
+			RGljdGlvbmFyeaMgIiNcTlNEaWN0aW9uYXJ5WE5TT2JqZWN00goL
+			JSehJoAJgAvSCykqK1lOUy5zdHJpbmeACld1c2VyX2lk0h4fLS5f
+			EA9OU011dGFibGVTdHJpbmejLS8jWE5TU3RyaW5n0h4fMTJeTlNN
+			dXRhYmxlQXJyYXmjMTMjV05TQXJyYXnSHh8iNaIiI18QD05TS2V5
+			ZWRBcmNoaXZlctE4OVRkYXRhgAEACAARABoAIwAtADIANwBFAEsA
+			UgBaAGUAbABwAHIAdAB2AHoAfAB+AIAAggCHAIwAkQC6AMEAwgDD
+			AMUAygDVAN4A9AD4AQUBDgETARUBFwEZAR4BKAEqATIBNwFJAU0B
+			VgFbAWoBbgF2AXsBfgGQAZMBmAAAAAAAAAIBAAAAAAAAADoAAAAA
+			AAAAAAAAAAAAAAGa
+			</data>
+			<key>contentSortColIsAsc</key>
+			<true/>
+			<key>contentViewport</key>
+			<string>{{1, 0}, {993, 616}}</string>
+			<key>isToolbarVisible</key>
+			<true/>
+			<key>queries</key>
+			<string>SELECT * FROM tweets;</string>
+			<key>table</key>
+			<string>users</string>
+			<key>view</key>
+			<string>SP_VIEW_CONTENT</string>
+			<key>windowVerticalDividerPosition</key>
+			<real>214</real>
+		</dict>
+	</dict>
+	<key>encrypted</key>
+	<false/>
+	<key>format</key>
+	<string>connection</string>
+	<key>queryFavorites</key>
+	<array/>
+	<key>queryHistory</key>
+	<array>
+		<string>SELECT * FROM tweets</string>
+		<string>INSERT INTO tweets
+  (tweet_id INT, 
+  user_id INT,
+  tweet TEXT)
+VALUES 
+  (1, 1, "The words 'faded Levi's' are very soothing. GOOOOOD MORNING IM HERE ON EARTH AGAIN"),
+  (2, 1, "FYI 'My Cousin Rachel' is the best movie of the year and please understand that Rachel Weisz is the best that there is. Speechless."),
+  (3, 1, "CAN I HAVE A SECRETARY WHO IS A GHOST BUT A NICE ONE WHO I CONFIDE IN"),
+  (4, 2, "'we're going to build a wonderwall. and oasis is going to pay for it.' - 90s trump"),
+  (5, 2, "i know it’s reckless but nothing skips on a lake like an iPad"),
+  (6, 2, "when the things trying to sync with your bluetooth reaches fifteen, it's time to go outside."),
+  (7, 3, "Anytime I see an iPhone, iPad and MacBook next to each other, I say 'Good to see the family back together again.' And no one ever laughs."),
+  (8, 3, "When singing, the shower is an Instagram filter for your voice."),
+  (9, 3, "You think you're cool? Try drinking water lying down in bed and then get back to me.");
+SELECT * FROM tweets</string>
+		<string>INSERT INTO tweets VALUES(1, 1, "The words 'faded Levi's' are very soothing. GOOOOOD MORNING IM HERE ON EARTH AGAIN");
+INSERT INTO tweets VALUES(2, 1, "FYI 'My Cousin Rachel' is the best movie of the year and please understand that Rachel Weisz is the best that there is. Speechless.");
+INSERT INTO tweets VALUES(3, 1, "CAN I HAVE A SECRETARY WHO IS A GHOST BUT A NICE ONE WHO I CONFIDE IN")</string>
+		<string>INSERT INTO tweets VALUES(1, 1, "The words 'faded Levi's' are very soothing. GOOOOOD MORNING IM HERE ON EARTH AGAIN");
+INSERT INTO tweets VALUES(2, 1, "FYI 'My Cousin Rachel' is the best movie of the year and please understand that Rachel Weisz is the best that there is. Speechless.");
+INSERT INTO tweets VALUES(3, 1, "CAN I HAVE A SECRETARY WHO IS A GHOST BUT A NICE ONE WHO I CONFIDE IN");
+INSERT INTO tweets VALUES(4, 2, "'we're going to build a wonderwall. and oasis is going to pay for it.' - 90s trump");
+INSERT INTO tweets VALUES(5, 2, "i know it’s reckless but nothing skips on a lake like an iPad");
+INSERT INTO tweets VALUES(6, 2, "when the things trying to sync with your bluetooth reaches fifteen, it's time to go outside.");
+INSERT INTO tweets VALUES(7, 3, "Anytime I see an iPhone, iPad and MacBook next to each other, I say 'Good to see the family back together again.' And no one ever laughs.");
+INSERT INTO tweets VALUES(8, 3, "When singing, the shower is an Instagram filter for your voice.");
+INSERT INTO tweets VALUES(9, 3, "You think you're cool? Try drinking water lying down in bed and then get back to me.");
+SELECT * FROM tweets</string>
+		<string>CREATE TABLE tweets (tweetid BIGINT autoincrement, userid INT, copy TEXT);
+INSERT INTO tweets VALUES(1, 1, "The words 'faded Levi's' are very soothing. GOOOOOD MORNING IM HERE ON EARTH AGAIN");
+INSERT INTO tweets VALUES(2, 1, "FYI 'My Cousin Rachel' is the best movie of the year and please understand that Rachel Weisz is the best that there is. Speechless.");
+INSERT INTO tweets VALUES(3, 1, "CAN I HAVE A SECRETARY WHO IS A GHOST BUT A NICE ONE WHO I CONFIDE IN");
+INSERT INTO tweets VALUES(4, 2, "'we're going to build a wonderwall. and oasis is going to pay for it.' - 90s trump");
+INSERT INTO tweets VALUES(5, 2, "i know it’s reckless but nothing skips on a lake like an iPad");
+INSERT INTO tweets VALUES(6, 2, "when the things trying to sync with your bluetooth reaches fifteen, it's time to go outside.");
+INSERT INTO tweets VALUES(7, 3, "Anytime I see an iPhone, iPad and MacBook next to each other, I say 'Good to see the family back together again.' And no one ever laughs.");
+INSERT INTO tweets VALUES(8, 3, "When singing, the shower is an Instagram filter for your voice.");
+INSERT INTO tweets VALUES(9, 3, "You think you're cool? Try drinking water lying down in bed and then get back to me.");
+SELECT * FROM tweets</string>
+		<string>CREATE TABLE tweets (tweet INT, copy TEXT);
+INSERT INTO tweets VALUES(1, "The words 'faded Levi's' are very soothing. GOOOOOD MORNING IM HERE ON EARTH AGAIN");
+INSERT INTO tweets VALUES(2, "FYI 'My Cousin Rachel' is the best movie of the year and please understand that Rachel Weisz is the best that there is. Speechless.");
+INSERT INTO tweets VALUES(3, "CAN I HAVE A SECRETARY WHO IS A GHOST BUT A NICE ONE WHO I CONFIDE IN");
+INSERT INTO tweets VALUES(4, "'we're going to build a wonderwall. and oasis is going to pay for it.' - 90s trump");
+INSERT INTO tweets VALUES(5, "i know it’s reckless but nothing skips on a lake like an iPad");
+INSERT INTO tweets VALUES(6, "when the things trying to sync with your bluetooth reaches fifteen, it's time to go outside.");
+INSERT INTO tweets VALUES(7, "Anytime I see an iPhone, iPad and MacBook next to each other, I say 'Good to see the family back together again.' And no one ever laughs.");
+INSERT INTO tweets VALUES(8, "When singing, the shower is an Instagram filter for your voice.");
+INSERT INTO tweets VALUES(9, "You think you're cool? Try drinking water lying down in bed and then get back to me.");
+SELECT copy FROM tweets</string>
+		<string>CREATE TABLE tweets (tweet INT, id INT, copy TEXT);
+INSERT INTO tweets VALUES(1, 1, "The words 'faded Levi's' are very soothing. GOOOOOD MORNING IM HERE ON EARTH AGAIN");
+INSERT INTO tweets VALUES(2, 2, "FYI 'My Cousin Rachel' is the best movie of the year and please understand that Rachel Weisz is the best that there is. Speechless.");
+INSERT INTO tweets VALUES(3, 3, "CAN I HAVE A SECRETARY WHO IS A GHOST BUT A NICE ONE WHO I CONFIDE IN");
+INSERT INTO tweets VALUES(4, 4, "'we're going to build a wonderwall. and oasis is going to pay for it.' - 90s trump");
+INSERT INTO tweets VALUES(5, 5, "i know it’s reckless but nothing skips on a lake like an iPad");
+INSERT INTO tweets VALUES(6, 6, "when the things trying to sync with your bluetooth reaches fifteen, it's time to go outside.");
+INSERT INTO tweets VALUES(7, 7, "Anytime I see an iPhone, iPad and MacBook next to each other, I say 'Good to see the family back together again.' And no one ever laughs.");
+INSERT INTO tweets VALUES(8, 8, "When singing, the shower is an Instagram filter for your voice.");
+INSERT INTO tweets VALUES(9, 9, "You think you're cool? Try drinking water lying down in bed and then get back to me.");
+SELECT copy FROM tweets</string>
+		<string>CREATE TABLE tweets (tweet INT, user INT, copy TEXT);
+INSERT INTO tweets VALUES(1, 1, "The words 'faded Levi's' are very soothing. GOOOOOD MORNING IM HERE ON EARTH AGAIN");
+INSERT INTO tweets VALUES(2, 2, "FYI 'My Cousin Rachel' is the best movie of the year and please understand that Rachel Weisz is the best that there is. Speechless.");
+INSERT INTO tweets VALUES(3, 3, "CAN I HAVE A SECRETARY WHO IS A GHOST BUT A NICE ONE WHO I CONFIDE IN");
+INSERT INTO tweets VALUES(4, 4, "'we're going to build a wonderwall. and oasis is going to pay for it.' - 90s trump");
+INSERT INTO tweets VALUES(5, 5, "i know it’s reckless but nothing skips on a lake like an iPad");
+INSERT INTO tweets VALUES(6, 6, "when the things trying to sync with your bluetooth reaches fifteen, it's time to go outside.");
+INSERT INTO tweets VALUES(7, 7, "Anytime I see an iPhone, iPad and MacBook next to each other, I say 'Good to see the family back together again.' And no one ever laughs.");
+INSERT INTO tweets VALUES(8, 8, "When singing, the shower is an Instagram filter for your voice.");
+INSERT INTO tweets VALUES(9, 9, "You think you're cool? Try drinking water lying down in bed and then get back to me.");
+SELECT copy FROM tweets</string>
+		<string>CREATE TABLE tweets (tweet INT, user INT, copy TEXT);
+INSERT INTO tweets VALUES(1, 1, "The words 'faded Levi's' are very soothing. GOOOOOD MORNING IM HERE ON EARTH AGAIN");
+INSERT INTO tweets VALUES(2, 1, "FYI 'My Cousin Rachel' is the best movie of the year and please understand that Rachel Weisz is the best that there is. Speechless.");
+INSERT INTO tweets VALUES(3, 1, "CAN I HAVE A SECRETARY WHO IS A GHOST BUT A NICE ONE WHO I CONFIDE IN");
+INSERT INTO tweets VALUES(4, 2, "'we're going to build a wonderwall. and oasis is going to pay for it.' - 90s trump");
+INSERT INTO tweets VALUES(5, 2, "i know it’s reckless but nothing skips on a lake like an iPad");
+INSERT INTO tweets VALUES(6, 2, "when the things trying to sync with your bluetooth reaches fifteen, it's time to go outside.");
+INSERT INTO tweets VALUES(7, 3, "Anytime I see an iPhone, iPad and MacBook next to each other, I say 'Good to see the family back together again.' And no one ever laughs.");
+INSERT INTO tweets VALUES(8, 3, "When singing, the shower is an Instagram filter for your voice.");
+INSERT INTO tweets VALUES(9, 3, "You think you're cool? Try drinking water lying down in bed and then get back to me.");
+SELECT copy FROM tweets</string>
+		<string>INSERT INTO tweets VALUES(4, 2, "'we're going to build a wonderwall. and oasis is going to pay for it.' - 90s trump");
+INSERT INTO tweets VALUES(5, 2, "i know it’s reckless but nothing skips on a lake like an iPad");
+INSERT INTO tweets VALUES(6, 2, "when the things trying to sync with your bluetooth reaches fifteen, it's time to go outside.");
+INSERT INTO tweets VALUES(7, 3, "Anytime I see an iPhone, iPad and MacBook next to each other, I say 'Good to see the family back together again.' And no one ever laughs.");
+INSERT INTO tweets VALUES(8, 3, "When singing, the shower is an Instagram filter for your voice.");
+INSERT INTO tweets VALUES(9, 3, "You think you're cool? Try drinking water lying down in bed and then get back to me.")</string>
+		<string>SELECT copy FROM tweets</string>
+		<string>CREATE TABLE tweets (tweetid BIGINT autoincrement, userid INT, copy TEXT)</string>
+		<string>INSERT INTO tweets VALUES(4, 2, "'we're going to build a wonderwall. and oasis is going to pay for it.' - 90s trump")</string>
+		<string>SELECT tweetid FROM tweets</string>
+		<string>CREATE TABLE tweets (tweetid BIGINT autoincrement, userid INT, copy TEXT CHAR(140), tweetdatetime DATETIME YYYYMMDD);
+INSERT INTO tweets VALUES (1, 1, "The words 'faded Levi's' are very soothing. GOOOOOD MORNING IM HERE ON EARTH AGAIN");
+INSERT INTO tweets VALUES (2, 2, "FYI 'My Cousin Rachel' is the best movie of the year and please understand that Rachel Weisz is the best that there is. Speechless.");
+INSERT INTO tweets VALUES (3, 3, "CAN I HAVE A SECRETARY WHO IS A GHOST BUT A NICE ONE WHO I CONFIDE IN");
+INSERT INTO tweets VALUES (4, 4, "'we're going to build a wonderwall. and oasis is going to pay for it.' - 90s trump");
+INSERT INTO tweets VALUES (5, 5, "i know it’s reckless but nothing skips on a lake like an iPad");
+INSERT INTO tweets VALUES (6, 6, "when the things trying to sync with your bluetooth reaches fifteen, it's time to go outside.");
+INSERT INTO tweets VALUES (7, 7, "Anytime I see an iPhone, iPad and MacBook next to each other, I say 'Good to see the family back together again.' And no one ever laughs.");
+INSERT INTO tweets VALUES (8, 8, "When singing, the shower is an Instagram filter for your voice.");
+INSERT INTO tweets VALUES (9, 9, "CAN I HAVE A SECRETARY WHO IS A GHOST BUT A NICE ONE WHO I CONFIDE IN");
+SELECT * FROM tweets</string>
+		<string>CREATE TABLE tweets (tweetid BIGINT autoincrement, userid INT, copy TEXT CHAR(140), tweetdatetime DATETIME YYYYMMDD);
+INSERT INTO tweets VALUES (1, 1, "The words 'faded Levi's' are very soothing. GOOOOOD MORNING IM HERE ON EARTH AGAIN");
+INSERT INTO tweets VALUES (2, 1, "FYI 'My Cousin Rachel' is the best movie of the year and please understand that Rachel Weisz is the best that there is. Speechless.");
+INSERT INTO tweets VALUES (3, 1, "CAN I HAVE A SECRETARY WHO IS A GHOST BUT A NICE ONE WHO I CONFIDE IN");
+INSERT INTO tweets VALUES (4, 2, "'we're going to build a wonderwall. and oasis is going to pay for it.' - 90s trump");
+INSERT INTO tweets VALUES (5, 2, "i know it’s reckless but nothing skips on a lake like an iPad");
+INSERT INTO tweets VALUES (6, 2, "when the things trying to sync with your bluetooth reaches fifteen, it's time to go outside.");
+INSERT INTO tweets VALUES (7, 3, "Anytime I see an iPhone, iPad and MacBook next to each other, I say 'Good to see the family back together again.' And no one ever laughs.");
+INSERT INTO tweets VALUES (8, 3, "When singing, the shower is an Instagram filter for your voice.");
+INSERT INTO tweets VALUES (9, 3, "CAN I HAVE A SECRETARY WHO IS A GHOST BUT A NICE ONE WHO I CONFIDE IN");
+SELECT * FROM tweets</string>
+		<string>INSERT INTO tweets VALUES (1, 1, "The words 'faded Levi's' are very soothing. GOOOOOD MORNING IM HERE ON EARTH AGAIN");
+INSERT INTO tweets VALUES (2, 1, "FYI 'My Cousin Rachel' is the best movie of the year and please understand that Rachel Weisz is the best that there is. Speechless.");
+INSERT INTO tweets VALUES (3, 1, "CAN I HAVE A SECRETARY WHO IS A GHOST BUT A NICE ONE WHO I CONFIDE IN");
+INSERT INTO tweets VALUES (4, 2, "'we're going to build a wonderwall. and oasis is going to pay for it.' - 90s trump");
+INSERT INTO tweets VALUES (5, 2, "i know it’s reckless but nothing skips on a lake like an iPad");
+INSERT INTO tweets VALUES (6, 2, "when the things trying to sync with your bluetooth reaches fifteen, it's time to go outside.");
+INSERT INTO tweets VALUES (7, 3, "The words 'faded Levi's' are very soothing. GOOOOOD MORNING IM HERE ON EARTH AGAIN");
+INSERT INTO tweets VALUES (8, 3, "FYI 'My Cousin Rachel' is the best movie of the year and please understand that Rachel Weisz is the best that there is. Speechless.");
+INSERT INTO tweets VALUES (9, 3, "CAN I HAVE A SECRETARY WHO IS A GHOST BUT A NICE ONE WHO I CONFIDE IN");
+SELECT copy FROM tweets</string>
+		<string>CREATE TABLE tweets (tweetid INTEGER, userid INTEGER, copy TEXT)</string>
+		<string>CREATE TABLE tweets (tweetid INTEGER, userid INTEGER, copy TEXT);
+INSERT INTO tweets VALUES (1, 1, "The words 'faded Levi's' are very soothing. GOOOOOD MORNING IM HERE ON EARTH AGAIN");
+INSERT INTO tweets VALUES (2, 1, "FYI 'My Cousin Rachel' is the best movie of the year and please understand that Rachel Weisz is the best that there is. Speechless.");
+INSERT INTO tweets VALUES (3, 1, "CAN I HAVE A SECRETARY WHO IS A GHOST BUT A NICE ONE WHO I CONFIDE IN");
+INSERT INTO tweets VALUES (4, 2, "'we're going to build a wonderwall. and oasis is going to pay for it.' - 90s trump");
+INSERT INTO tweets VALUES (5, 2, "i know it’s reckless but nothing skips on a lake like an iPad");
+INSERT INTO tweets VALUES (6, 2, "when the things trying to sync with your bluetooth reaches fifteen, it's time to go outside.");
+INSERT INTO tweets VALUES (7, 3, "The words 'faded Levi's' are very soothing. GOOOOOD MORNING IM HERE ON EARTH AGAIN");
+INSERT INTO tweets VALUES (8, 3, "FYI 'My Cousin Rachel' is the best movie of the year and please understand that Rachel Weisz is the best that there is. Speechless.");
+INSERT INTO tweets VALUES (9, 3, "CAN I HAVE A SECRETARY WHO IS A GHOST BUT A NICE ONE WHO I CONFIDE IN");
+SELECT * FROM tweets</string>
+		<string>CREATE TABLE tweets (tweetid BIGINT, userid INTEGER, copy TEXT);
+INSERT INTO tweets VALUES (1, 1, "The words 'faded Levi's' are very soothing. GOOOOOD MORNING IM HERE ON EARTH AGAIN");
+INSERT INTO tweets VALUES (2, 1, "FYI 'My Cousin Rachel' is the best movie of the year and please understand that Rachel Weisz is the best that there is. Speechless.");
+INSERT INTO tweets VALUES (3, 1, "CAN I HAVE A SECRETARY WHO IS A GHOST BUT A NICE ONE WHO I CONFIDE IN");
+INSERT INTO tweets VALUES (4, 2, "'we're going to build a wonderwall. and oasis is going to pay for it.' - 90s trump");
+INSERT INTO tweets VALUES (5, 2, "FYI 'My Cousin Rachel' is the best movie of the year and please understand that Rachel Weisz is the best that there is. Speechless.");
+INSERT INTO tweets VALUES (6, 2, "CAN I HAVE A SECRETARY WHO IS A GHOST BUT A NICE ONE WHO I CONFIDE IN");
+INSERT INTO tweets VALUES (7, 3, "The words 'faded Levi's' are very soothing. GOOOOOD MORNING IM HERE ON EARTH AGAIN");
+INSERT INTO tweets VALUES (8, 3, "FYI 'My Cousin Rachel' is the best movie of the year and please understand that Rachel Weisz is the best that there is. Speechless.");
+INSERT INTO tweets VALUES (9, 3, "CAN I HAVE A SECRETARY WHO IS A GHOST BUT A NICE ONE WHO I CONFIDE IN");
+SELECT * FROM tweets</string>
+	</array>
+	<key>rdbms_type</key>
+	<string>mysql</string>
+	<key>rdbms_version</key>
+	<string>5.7.19</string>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>
